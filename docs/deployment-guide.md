@@ -2,7 +2,6 @@
 
 Deploy ATR in your AI agent pipeline and help validate it as a detection standard.
 
-ATR 部署指南 -- 在你的 AI Agent 管道中部署 ATR，幫助驗證它作為偵測標準的實用性。
 
 ---
 
@@ -10,7 +9,6 @@ ATR 部署指南 -- 在你的 AI Agent 管道中部署 ATR，幫助驗證它作�
 
 ATR needs real-world data to become a standard. Every deployment report -- even "nothing fired" or "too many false positives" -- is valuable feedback.
 
-ATR 需要實戰數據才能成為標準。每一份部署報告 -- 即使是「沒有觸發」或「太多誤判」 -- 都是有價值的回饋。
 
 ---
 
@@ -225,4 +223,4 @@ After deploying, open a GitHub issue with the **Deployment Report** template. In
 
 ## Questions?
 
-Open an issue or start a discussion at https://github.com/Agent-Threat-Rule/agent-threat-rules/discussions
+Open an issue or start a discussion at https://github.com/accionlabs/open-agent-threat-rules/discussions
