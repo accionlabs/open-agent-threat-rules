@@ -2,7 +2,6 @@
 
 ATR is a detection layer, not a complete security product. It evaluates agent events against rules and returns match results. What you do with those results is up to you.
 
-ATR 是偵測層，不是完整的安全產品。它評估 agent 事件、回傳匹配結果。怎麼處理結果由你決定。
 
 ```
 YOUR PRODUCT
@@ -155,7 +154,7 @@ class MySecurityPipeline {
 
 | Product | What they add on top of ATR |
 |---|---|
-| *Your product here* | [Tell us](https://github.com/Agent-Threat-Rule/agent-threat-rules/issues) |
+| *Your product here* | [Tell us](https://github.com/accionlabs/open-agent-threat-rules/issues) |
 
 ---
 
@@ -170,7 +169,7 @@ Before shipping your ATR integration:
 - [ ] Log all matches (even below threshold) for false positive analysis
 - [ ] Test with ATR's built-in test cases: `npx agent-threat-rules test`
 - [ ] Subscribe to ATR releases for rule updates
-- [ ] Report false positives back to ATR ([issue template](https://github.com/Agent-Threat-Rule/agent-threat-rules/issues))
+- [ ] Report false positives back to ATR ([issue template](https://github.com/accionlabs/open-agent-threat-rules/issues))
 
 ---
 
