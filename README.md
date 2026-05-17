@@ -4,8 +4,6 @@
 
 ### Detection rules for AI agent threats. Open source. Community-driven.
 
-AI Agent 威脅偵測規則 -- 開源、社群驅動
-
 <br />
 
 [![npm](https://img.shields.io/npm/v/agent-threat-rules?style=flat-square&color=brightgreen&label=npm)](https://www.npmjs.com/package/agent-threat-rules)
@@ -25,8 +23,6 @@ AI Agent 威脅偵測規則 -- 開源、社群驅動
 
 AI assistants (ChatGPT, Claude, Copilot) now browse the web, run code, and use external tools. Attackers can trick them into leaking data, running malicious commands, or ignoring safety instructions. **ATR is a set of open detection rules that spot these attacks -- like antivirus signatures, but for AI agents.**
 
-AI 助理現在可以瀏覽網頁、執行程式碼、使用外部工具。攻擊者可以欺騙它們洩漏資料、執行惡意指令、繞過安全限制。**ATR 是一套開放的偵測規則，專門識別這些攻擊 -- 像防毒軟體的病毒碼，但對象是 AI Agent。**
-
 ### What changed in v2.2.0 (2026-05-12)
 
 - **75 new rules** across 5 categories. Total: 344 → 419.
@@ -41,8 +37,6 @@ Full changelog: [CHANGELOG.md](CHANGELOG.md).
 ### Sovereign AI defense
 
 ATR is the open detection standard nations can adopt without geopolitical risk. MIT licensed. Adoptable by any country. Contributable by any organization. No vendor lock-in.
-
-ATR 是各國可採用、無地緣政治風險的開放偵測標準。MIT 授權，任何國家可採用，任何組織可貢獻，無廠商鎖定。
 
 Background: [sovereign-ai-defense.vercel.app](https://sovereign-ai-defense.vercel.app)
 
@@ -134,7 +128,7 @@ atr mcp                           # start MCP server for IDE integration
 
 ```yaml
 # .github/workflows/atr-scan.yml
-- uses: Agent-Threat-Rule/agent-threat-rules@v1
+- uses: accionlabs/open-agent-threat-rules@v1
   with:
     path: '.'              # scan SKILL.md and MCP configs in repo
     severity: 'medium'     # minimum severity to report
@@ -361,10 +355,10 @@ Report what ATR found (or missed). **Your real-world detection report is more va
 | Impact | What to do | Time |
 |--------|-----------|------|
 | **Critical** | **Integrate ATR into your security tool** -- PR our rules into your platform ([generic-regex export](#export-rules) makes it easy) | 1-2 hours |
-| **Critical** | Scan your MCP skills and [report results](https://github.com/Agent-Threat-Rule/agent-threat-rules/issues) | 15 min |
+| **Critical** | Scan your MCP skills and [report results](https://github.com/accionlabs/open-agent-threat-rules/issues) | 15 min |
 | **Critical** | [Deploy ATR](docs/deployment-guide.md) in your agent pipeline, share detection stats | 1-2 hours |
 | **High** | [Break our rules](CONTRIBUTION-GUIDE.md#5-evasion-research) -- find bypasses, report evasions | 15 min |
-| **High** | Report [false positives](https://github.com/Agent-Threat-Rule/agent-threat-rules/issues) from real traffic | 15 min |
+| **High** | Report [false positives](https://github.com/accionlabs/open-agent-threat-rules/issues) from real traffic | 15 min |
 | **High** | [Write a new rule](CONTRIBUTING.md#c-submit-a-new-rule-1-2-hours) for an uncovered attack | 1 hour |
 | **High** | Build an engine in [Go / Rust / Java](CONTRIBUTING.md) | Weekend |
 | **Medium** | Add multilingual attack phrases for your native language | 30 min |
@@ -387,7 +381,7 @@ npm install agent-threat-rules
 # → One YAML line, SARIF output, GitHub Security tab integration
 ```
 
-Cisco AI Defense integrated via Option 1: full 419-rule pack merged in [PR #99](https://github.com/cisco-ai-defense/skill-scanner/pull/99) after the original PoC [PR #79](https://github.com/cisco-ai-defense/skill-scanner/pull/79). Microsoft Agent Governance Toolkit upgraded to 287 rules + weekly auto-sync in [PR #1277](https://github.com/microsoft/agent-governance-toolkit/pull/1277). Happy to help with your integration -- [open an issue](https://github.com/Agent-Threat-Rule/agent-threat-rules/issues).
+Cisco AI Defense integrated via Option 1: full 419-rule pack merged in [PR #99](https://github.com/cisco-ai-defense/skill-scanner/pull/99) after the original PoC [PR #79](https://github.com/cisco-ai-defense/skill-scanner/pull/79). Microsoft Agent Governance Toolkit upgraded to 287 rules + weekly auto-sync in [PR #1277](https://github.com/microsoft/agent-governance-toolkit/pull/1277). Happy to help with your integration -- [open an issue](https://github.com/accionlabs/open-agent-threat-rules/issues).
 
 ### Rule contribution workflow
 
@@ -517,7 +511,7 @@ If you use ATR in your research, please cite:
 
 ## Maintainer
 
-Adam Lin (林冠辛). adam@agentthreatrule.org. GitHub [@eeee2345](https://github.com/eeee2345). Taiwan.
+Adam Lin. adam@agentthreatrule.org. GitHub [@eeee2345](https://github.com/eeee2345). Taiwan.
 
 60 days solo from zero to 419 rules, 6 ecosystem integrations, 30+ PRs in flight.
 
@@ -535,8 +529,6 @@ ATR builds on: [Sigma](https://github.com/SigmaHQ/sigma) (SIEM detection format)
 
 **ATR is a format, not yet a standard. The community decides when it becomes one.**
 
-ATR 是一個格式，還不是標準。何時成為標準，由社群決定。
-
-[![Star History Chart](https://api.star-history.com/svg?repos=Agent-Threat-Rule/agent-threat-rules&type=Date)](https://star-history.com/#Agent-Threat-Rule/agent-threat-rules&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=accionlabs/open-agent-threat-rules&type=Date)](https://star-history.com/#accionlabs/open-agent-threat-rules&Date)
 
 </div>
