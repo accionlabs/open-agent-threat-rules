@@ -52,7 +52,7 @@ an individual is officially representing the community in public spaces.
 
 Instances of abusive, harassing, or otherwise unacceptable behavior may be
 reported to the community leaders responsible for enforcement via
-[GitHub Security Advisory](https://github.com/Agent-Threat-Rule/agent-threat-rules/security/advisories/new).
+[GitHub Security Advisory](https://github.com/accionlabs/open-agent-threat-rules/security/advisories/new).
 
 All complaints will be reviewed and investigated promptly and fairly.
 
