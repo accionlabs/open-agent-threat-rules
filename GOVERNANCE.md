@@ -45,7 +45,7 @@ ecosystem references a specific detection pattern.
 ### Who assigns IDs
 
 The **ATR Numbering Authority** is the maintainer team of the
-[Agent-Threat-Rule/agent-threat-rules](https://github.com/Agent-Threat-Rule/agent-threat-rules)
+[accionlabs/open-agent-threat-rules](https://github.com/accionlabs/open-agent-threat-rules)
 repository. As of v1.0, this is a single-maintainer authority. The
 governance model will evolve toward a multi-stakeholder committee as
 adoption grows (see Roadmap below).
