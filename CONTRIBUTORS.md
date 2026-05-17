@@ -13,13 +13,13 @@ and false positive reports to ATR.
 
 | Contributor | Bypasses Reported | Notable |
 |-------------|-------------------|---------|
-| *Your name here* | | Submit an [evasion report](https://github.com/Agent-Threat-Rule/agent-threat-rules/issues/new?template=evasion-report.yml) |
+| *Your name here* | | Submit an [evasion report](https://github.com/accionlabs/open-agent-threat-rules/issues/new?template=evasion-report.yml) |
 
 ## False Positive Reports
 
 | Contributor | Reports | Notable |
 |-------------|---------|---------|
-| *Your name here* | | Submit a [false positive report](https://github.com/Agent-Threat-Rule/agent-threat-rules/issues/new?template=false-positive.yml) |
+| *Your name here* | | Submit a [false positive report](https://github.com/accionlabs/open-agent-threat-rules/issues/new?template=false-positive.yml) |
 
 ## Engine Contributors
 
