@@ -120,7 +120,7 @@ so reviewers know to pay extra attention to regex quality and edge cases.
 Clone and test all rules:
 
 ```bash
-git clone https://github.com/Agent-Threat-Rule/agent-threat-rules
+git clone https://github.com/accionlabs/open-agent-threat-rules
 cd agent-threat-rules
 npm install
 npm test
