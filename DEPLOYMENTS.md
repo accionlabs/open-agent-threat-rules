@@ -124,7 +124,7 @@ Skills that passed all checks with zero findings were candidates for auto-whitel
 | **Deployer** | Microsoft |
 | **Framework** | microsoft/agent-governance-toolkit — PolicyEvaluator |
 | **Integration method** | ATR community rules consumed by the PolicyEvaluator engine |
-| **Rules loaded** | ATR community rules (via Agent-Threat-Rule/agent-threat-rules) |
+| **Rules loaded** | ATR community rules (via accionlabs/open-agent-threat-rules) |
 | **Since** | 2026-04-13 |
 | **Status** | Merged to main |
 | **Reference** | [PR #908](https://github.com/microsoft/agent-governance-toolkit/pull/908) |
@@ -155,7 +155,7 @@ If you are using ATR rules in your project, we welcome deployment reports. They 
 
 ### How to Submit
 
-1. Open an issue using the **Deployment Report** template: [Submit Report](https://github.com/Agent-Threat-Rule/agent-threat-rules/issues/new?template=deployment-report.yml)
+1. Open an issue using the **Deployment Report** template: [Submit Report](https://github.com/accionlabs/open-agent-threat-rules/issues/new?template=deployment-report.yml)
 2. Include at minimum:
    - Framework name and language
    - Integration method (npm, YAML loader, API, etc.)
