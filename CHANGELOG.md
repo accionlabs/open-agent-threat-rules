@@ -105,7 +105,7 @@ All notable changes to ATR will be documented in this file.
 
 ### Added
 
-- **NIST AI RMF mapping v0.2** — 100% coverage of all 4 AI RMF functions (Govern / Map / Measure / Manage), 72 controls + 31 cross-reference links + worked example profile. Schema-valid OSCAL catalog published under `Agent-Threat-Rule/ai-rmf-oscal-catalog` (PR #46).
+- **NIST AI RMF mapping v0.2** — 100% coverage of all 4 AI RMF functions (Govern / Map / Measure / Manage), 72 controls + 31 cross-reference links + worked example profile. Schema-valid OSCAL catalog published under `accionlabs/ai-rmf-oscal-catalog` (PR #46).
 - Dedicated `/compliance/nist-ai-rmf` page on website with 314 → 330 rule count refresh sitewide.
 
 ### Adopted (external)
